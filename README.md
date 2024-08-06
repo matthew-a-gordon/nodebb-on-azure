@@ -9,7 +9,8 @@ Automated deployment of NodeBB with the following resourses on Azure :
 
 ## Walktrough
 
-1. Click on <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjulienstroheker%2Fnodebb-on-azure%2Fmaster%2Fdeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<!-- 1. Click on <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjulienstroheker%2Fnodebb-on-azure%2Fmaster%2Fdeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a> -->
+<!-- TODO: replace this with the link to our Pisteyo bicep template -->
 2. Give a name for the resource Group
 3. Pick a location !! Because the **Service Plan on Linux is still in preview**, you can only pick the following one : **West Europe** - **Southeast Asia** - **West US** 
 4. Fill the suffix field. This one allow you to name your ressources on Azure, for example if you enter 'julienstro' you will have the following name : 
